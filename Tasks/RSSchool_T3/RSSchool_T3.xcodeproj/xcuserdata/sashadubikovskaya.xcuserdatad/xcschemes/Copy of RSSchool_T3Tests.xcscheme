@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1020"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -9,14 +9,28 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E3821551225B533B00E3B12B"
                BuildableName = "RSSchool_T3.app"
                BlueprintName = "RSSchool_T3"
+               ReferencedContainer = "container:RSSchool_T3.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E3821569225B533E00E3B12B"
+               BuildableName = "RSSchool_T3Tests.xctest"
+               BlueprintName = "RSSchool_T3Tests"
                ReferencedContainer = "container:RSSchool_T3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -35,16 +49,6 @@
                BlueprintIdentifier = "E3821569225B533E00E3B12B"
                BuildableName = "RSSchool_T3Tests.xctest"
                BlueprintName = "RSSchool_T3Tests"
-               ReferencedContainer = "container:RSSchool_T3.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3821574225B533E00E3B12B"
-               BuildableName = "RSSchool_T3UITests.xctest"
-               BlueprintName = "RSSchool_T3UITests"
                ReferencedContainer = "container:RSSchool_T3.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -71,8 +75,7 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E3821551225B533B00E3B12B"
@@ -80,7 +83,7 @@
             BlueprintName = "RSSchool_T3"
             ReferencedContainer = "container:RSSchool_T3.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +93,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E3821551225B533B00E3B12B"
-            BuildableName = "RSSchool_T3.app"
-            BlueprintName = "RSSchool_T3"
-            ReferencedContainer = "container:RSSchool_T3.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
